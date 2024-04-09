@@ -34,6 +34,7 @@ body
     justify-content: space-between;
     overflow: hidden;
     gap: 82px;
+
 }   
 .apresentação-conteudo
 {
@@ -52,6 +53,7 @@ body
     flex-direction: column;
     height: auto;
     gap: 20px;
+   
 }
 .apresentação-conteudo-titulo
 {
@@ -74,33 +76,16 @@ body
     gap: 32px;
     justify-content: center;
 }
-.links
-{
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    border: 2px solid var(--ct);
-    width: 378px;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px 0;
-    text-decoration: none;
-    color:var(--ct);
-    font-family: var(--fonte);
-    background-color:var(--cp);
-    
-}
+
 .Redes-sociais
 {
     font-weight: 400;
     font-family: var(--fonte);
     font-size: 1.5rem;
 }
-.links:hover
-{
-    background-color:var(--ch);
+.video{
+    video::-webkit-media-controls 
+    display: none;
 }
 .rodape
 {

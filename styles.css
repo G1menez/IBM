@@ -147,7 +147,7 @@ body
 }
 .text-login
 {
-    background-color: rgb(156, 146, 146, 0.7)  
+    background-color: rgba(156, 146, 146, 0.7)  
     position: absolute;
     top: 50%;
     left: 50%;

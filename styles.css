@@ -77,16 +77,6 @@ body
     justify-content: center;
 }
 
-.Redes-sociais
-{
-    font-weight: 400;
-    font-family: var(--fonte);
-    font-size: 1.5rem;
-}
-.video{
-    video::-webkit-media-controls 
-    display: none;
-}
 .rodape
 {
     padding: 30px;

@@ -464,7 +464,17 @@ input
         overflow: hidden;
         transition: .5s;
     }
-    
+    .menu-mobile1{
+        background-color: #4143b38f;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        width: 0%;
+        overflow: hidden;
+        transition: .5s;
+    }
     .menu-mobile.abrir-menu{
         width: 70%;
     }

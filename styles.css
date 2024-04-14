@@ -359,6 +359,18 @@ input
 {
     border-radius: 1000px;
 }
+.imagem1
+{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
+.imagem2    
+{
+    position: fixed;
+    top: 90%;
+    left: 90%;
+}
 
 @media (max-width: 1000px)
 {
@@ -367,6 +379,12 @@ input
         display: none;
     }
     .imagem1
+    {
+        position: fixed;
+        top: 90%;
+        left: 90%;
+    }
+    .imagem2    
     {
         position: fixed;
         top: 90%;

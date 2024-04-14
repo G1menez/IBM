@@ -234,7 +234,7 @@ input
 {
     background-color: rgba(138, 196, 223, 0.9);   
     position: absolute;
-    top: 55%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 70px;
@@ -281,7 +281,7 @@ input
     {
         display: none;
     }
-    .video
+    .video1
     {
         display: none;
     }

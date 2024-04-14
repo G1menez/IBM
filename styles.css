@@ -274,12 +274,143 @@ input
    display: none;
 
 }
+.Pietro
+{
+    padding: 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 40px;
+}
+.nome
+{
+    color: var(--ct);
+}
+.Pietro img
+{
+    border-radius: 1000px;
+}
+.Zago
+{
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 40px;
+}
+.Zago img
+{
+    border-radius: 1000px;
+}
+.Aguiar
+{
+    padding: 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 40px;
+}
+.Aguiar img
+{
+    border-radius: 1000px;
+}
+.Octavio
+{
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 40px;
+}
+.Octavio img
+{
+    border-radius: 1000px;
+}
+.Leonardo
+{
+    padding: 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 40px;
+}
+.Leonardo img
+{
+    border-radius: 1000px;
+}
+.Samuel
+{
+    padding: 5% 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 40px;
+}
+.Samuel img
+{
+    border-radius: 1000px;
+}
 
 @media (max-width: 1000px)
 {
     .rodape img
     {
         display: none;
+    }
+    .imagem1
+    {
+        position: fixed;
+        top: 90%;
+        left: 90%;
+    }
+    .Pietro
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .Zago
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .Leonardo
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .Octavio
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .Octavio img
+    {
+        width: 300px;
+    }
+    .Samuel
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .Aguiar
+    {
+        display: flex;
+        flex-direction: column;
+        width: auto;
     }
     .video1
     {
@@ -294,6 +425,15 @@ input
         color: #00FF08;
         font-size: 40px;
     }
+ .quemsomos
+ {
+    text-align: center;
+    gap: 40px;
+}
+.quemsomos img
+{
+    border-radius: 100%;
+}
     
     .menu-mobile{
         background-color: #4143b38f;

@@ -1,10 +1,10 @@
 :root
 {
-    --cp: #f6f6f6;
+    --cp: #DED7CB;
     --cs: #65647C;
-    --ct: #4143b3;
+    --ct: #5271FF;
     --ch: #C7BCA1;
-    --fonte: Arial, Helvetica, sans-serif
+    --fonte: Arial, Helvetica, sans-serif;
 }
 *
 {
@@ -166,7 +166,7 @@ body
 
 button
 {
-    background-color: #ffffff;
+    background-color: var(--cp);
     padding: 15px;
     border: none;
     width: 100%;
@@ -175,7 +175,7 @@ button
 }
 .button1
 {
-    background-color: #ffffff;
+    background-color: var(--cp);
     padding: 15px;
     border: none;
     width: 106%;
@@ -188,6 +188,9 @@ input
     border: none;
     outline: none;
     font-size: 15px;
+    color: var(--cp);
+    background-color: var(--cp);
+    color: #000;
 }
 .quem
 {
@@ -223,7 +226,7 @@ input
 .menu-mobile
 {
     width: 0px;
-    color: #4143b3;
+    color: var(--ct);
     overflow: hidden;
 }
 .serviços
@@ -270,7 +273,7 @@ input
 
 .btn-abrir-menu
 {
-   color: #4143b3;
+   color: var(--ct);
    display: none;
 
 }
@@ -370,6 +373,16 @@ input
     position: fixed;
     top: 90%;
     left: 90%;
+}
+.video
+{
+    width: 50%;
+    height: 50%;
+}
+.video1
+{
+    height: 50%;
+    height: 40%;
 }
 
 @media (max-width: 1000px)

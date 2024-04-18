@@ -120,7 +120,7 @@ body
     text-align: left;
     justify-content: space-around;
     flex-grow: 1;
-    color: var(--ct);
+    color: #000;
 }
 .cabeçalho_menu_link
 {

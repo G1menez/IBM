@@ -1,4 +1,3 @@
-:root
 {
     --cp: #DED7CB;
     --cs: #65647C;
@@ -11,7 +10,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
 }   
 body
 {
@@ -67,7 +65,6 @@ body
     font-size: 1.5rem;
     font-family: var(--fonte);
     font-weight: 500;
-    color:000;
 }
 .apresentação-links
 {
@@ -121,15 +118,15 @@ body
     text-align: left;
     justify-content: space-around;
     flex-grow: 1;
-    color: var(--cp);
+    color: var(--ct);
 }
 .cabeçalho_menu_link
 {
     font-family: var(--fonte);
     font-size: 1.5rem;
     font-weight: 600;
+    color:var(--cp);
     text-decoration: none;
-    color: var(--cp);
 }
 .imagem
 {
